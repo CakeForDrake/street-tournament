@@ -1,4 +1,4 @@
-package com.exadel.sandbox.team5.entity;
+package com.krasko.dobrenchuk.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

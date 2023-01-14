@@ -1,4 +1,4 @@
-package com.exadel.sandbox.team5;
+package com.krasko.dobrenchuk;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

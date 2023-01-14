@@ -7,10 +7,10 @@ spring:
   application:
     name: sandbox
   datasource:
-    url: jdbc:mysql://localhost:3306/sandbox?serverTimezone=UTC&createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:postgresql://localhost:5432/street-tournament?serverTimezone=UTC&createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
   jpa:
     generate-ddl: false
     hibernate:
@@ -18,11 +18,11 @@ spring:
         implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   flyway:
-    user: root
-    password: root
-    schemas: sandbox
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/sandbox?serverTimezone=UTC&createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+    user: postgres
+    password: admin
+    schemas: street-tournament
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/street-tournament?serverTimezone=UTC&createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
 
 logging:
   level:

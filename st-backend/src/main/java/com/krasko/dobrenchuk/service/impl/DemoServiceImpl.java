@@ -1,13 +1,13 @@
-package com.exadel.sandbox.team5.service.impl;
+package com.krasko.dobrenchuk.service.impl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.exadel.sandbox.team5.dao.DemoDAO;
-import com.exadel.sandbox.team5.entity.DemoEntity;
-import com.exadel.sandbox.team5.service.DemoService;
+import com.krasko.dobrenchuk.dao.DemoDAO;
+import com.krasko.dobrenchuk.entity.DemoEntity;
+import com.krasko.dobrenchuk.service.DemoService;
 
 import lombok.RequiredArgsConstructor;
 

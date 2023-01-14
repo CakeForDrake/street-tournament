@@ -1,8 +1,8 @@
-package com.exadel.sandbox.team5.service;
+package com.krasko.dobrenchuk.service;
 
 import java.util.List;
 
-import com.exadel.sandbox.team5.entity.DemoEntity;
+import com.krasko.dobrenchuk.entity.DemoEntity;
 
 public interface DemoService {
 
